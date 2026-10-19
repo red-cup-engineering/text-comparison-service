@@ -5,8 +5,7 @@
   "description": "Compares text using explicit case and Unicode-folding rules while retaining source spans, and matches names against a list of named records with rarity-weighted words.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-text-data-services-section.git",
-    "directory": "services/text-comparison-service"
+    "url": "git+https://github.com/red-cup-engineering/text-comparison-service.git"
   },
   "exports": {
     ".": "./src/compare-strings.mjs",
