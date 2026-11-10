@@ -8,3 +8,7 @@
 <!-- 561-group-standards:badges:end -->
 
 Compares text using explicit case and Unicode-folding rules while retaining source spans, and matches names against a list of named records with rarity-weighted words.
+
+## Acceptance
+
+Run `npm test` for the source suite. The [API reference](docs/API.md) links the source refusal and [runnable consumer example](examples/quickstart.test.mjs).
