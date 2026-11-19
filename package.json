@@ -1,0 +1,36 @@
+{
+  "name": "@red-cup-engineering/text-comparison-service",
+  "version": "0.1.5-dev.0",
+  "type": "module",
+  "description": "Compares text using explicit case and Unicode-folding rules while retaining source spans, and matches names against a list of named records with rarity-weighted words.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/text-comparison-service.git"
+  },
+  "exports": {
+    ".": "./src/compare-strings.mjs",
+    "./match-names": "./src/match-names.mjs"
+  },
+  "bin": {
+    "compare-strings": "./scripts/compare-strings.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/compare-strings.mjs && node --check src/match-names.mjs && node --check scripts/compare-strings.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "private": false,
+  "files": [
+    "package.json",
+    "README*",
+    "LICENSE*",
+    "scripts",
+    "src"
+  ],
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
